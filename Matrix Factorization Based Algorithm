@@ -1,0 +1,10 @@
+Matrix factorization is a class of collaborative filtering algorithms used in recommender systems.
+
+Matrix factorization algorithms work by decomposing the user-movie interaction matrix into the product of two lower dimensionality rectangular matrices, 
+say U and M. The decomposition is done in such a way that the product results in almost similar values to the user-movie interaction matrix. Here,
+U represents the user matrix, M represents the movie matrix, n is the number of users, and m is the number of movies.
+
+Each row of the user matrix represents a user and each column of the movie matrix represents a movie.
+
+With collaborative filtering, the system is based on past interactions between users and movies. With this in mind, 
+the input for a collaborative filtering system is made up of past data of user interactions with the movies they watch.
