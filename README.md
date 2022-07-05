@@ -1,7 +1,7 @@
 # Movie-Recommendation-System
 Movie Recommendation System based on  Item-Item Recommendation System. This technique attempts to figure out what a user's favourite aspects of an item is, and then recommends items that present those aspects.  We use Maxtrix-Factorization based algorithm to predict our movies to the user.
 
-#Pre-Processing:
+##Pre-Processing:
 1. Differentiating between the year that is given in the 'title' into a different column under 'year'. 
 2. Then splitting the differnt genre's by  | so that we can use the split function on it.
 3. Putting all of the genre into different columns and iterating '1' and '0' based on the movie if it comes under the given 'Genre'.
